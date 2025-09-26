@@ -1,0 +1,54 @@
+/* .registration-page {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.registration-card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+}
+
+.registration-card .card-header {
+  border-radius: 15px 15px 0 0 !important;
+  padding: 1.5rem;
+}
+
+.form-floating>label {
+  color: #6c757d;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  border: 1px solid #ced4da;
+  transition: all 0.3s;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 0.75rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}
+
+.text-decoration-none {
+  color: #0d6efd;
+  transition: all 0.3s;
+}
+
+.text-decoration-none:hover {
+  color: #0b5ed7;
+  text-decoration: underline !important;
+} */

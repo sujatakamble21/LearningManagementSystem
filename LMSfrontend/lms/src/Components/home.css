@@ -1,0 +1,120 @@
+/* --- Hero Section --- */
+.hero-section {
+    background: url('D:\lms\src\Components\images\hero.png') no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.hero-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.hero-overlay button {
+    margin-top: 1rem;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background: #ffc107;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-overlay button:hover {
+    background-color: #e6a500;
+}
+
+/* --- Features Section --- */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.feature {
+    max-width: 300px;
+    margin: 1rem;
+}
+
+.feature h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* --- Testimonials Section --- */
+.testimonials {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.testimonial {
+    background: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Media Queries for Responsiveness --- */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+    }
+
+    .hero-overlay h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-overlay button {
+        padding: 8px 20px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+
+    .testimonial-slider {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 90%;
+        margin: 1rem 0;
+    }
+}
+
